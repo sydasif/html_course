@@ -149,7 +149,7 @@ The `class` attribute is used to associate an element with a style sheet, and sp
 
 A webpage can contain various links that take you directly to other pages and even specific parts of a given page.
 
-- Linking Documents
+### Linking Documents
 
 A link is specified using HTML tag `<a>`. This tag is called `anchor` tag and anything between becomes part of the link and a user can click that part to reach to the linked document.
 
@@ -168,7 +168,7 @@ A link is specified using HTML tag `<a>`. This tag is called `anchor` tag and an
 </html>
 ```
 
-- The target Attribute
+### The target Attribute
 
 This attribute is used to specify the location where linked document is opened.
 
@@ -210,7 +210,7 @@ You can link HTML documents related to the same website, it is not required to g
 </html>
 ```
 
-- Linking to a Page Section
+### Linking to a Page Section
 
 You can create a link to a particular section of a webpage by using `id` attribute. This is a two-step process.
 
