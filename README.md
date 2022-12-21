@@ -143,7 +143,7 @@ The `id` attribute can be used to uniquely identify any element within an HTML p
 
 ### The class Attribute
 
-The `class` attribute is used to associate an element with a style sheet, and specifies the class of element.
+The `class` attribute is used to associate an element with a style sheet, and specifies the class of element. Multiple HTML elements can share the same `class`.
 
 ## HTML - Links
 
