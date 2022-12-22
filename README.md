@@ -27,9 +27,9 @@ Following is an example of an basic HTML document.
    </head>
 
    <body>
-      <!--1st heading -->
+      <!-- 1st heading -->
       <h1>Basic HTML Document</h1>
-      <!--Paragraph and content goes here -->
+      <!-- Paragraph and content goes here -->
       <p>Hello World!</p>
    </body>
 
@@ -58,7 +58,7 @@ To learn HTML, you will need to study various tags and understand how they behav
 
 #### Heading Tags
 
-Any document starts with a heading tag. You can use different sizes for your headings. HTML has `6` levels of headings, which is `<h1>`, `<h2>` and yuto `<h6>`. While displaying any heading, browser adds one line before and one line after that heading.
+Any document starts with a heading tag. You can use different sizes for your headings. HTML has `6` levels of headings, which is `<h1>`, `<h2>` and upto `<h6>`. While displaying any heading, browser adds one line before and one line after that heading.
 
 ```html
 <!DOCTYPE html>
@@ -113,7 +113,7 @@ An HTML element is defined by a starting tag, the element contains other content
 
 | Start Tag | Content | End Tag |
 | --------- | ------- | ------- |
-| `<p>` | This is paragraph content. |	`</p>` |
+| `<p>` | This is paragraph content. | `</p>` |
 | `<h1>` | This is heading content. | `</h1>` |
 
 Here `<p>....</p>` is an HTML element, `<h1>...</h1>` is another HTML element.
