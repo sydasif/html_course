@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+      }
+      td {
+        text-align: center;
+      }
+      thead {
+        background-color: lightblue;
+      }
+      tfoot {
+        background-color: chartreuse;
+      }
+      tbody {
+        background-color: aliceblue;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Network Automation
+      </caption>
+      <thead>
+        <tr>
+          <th>Price</th>
+          <th>Name</th>
+          <th>Usage</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <th rowspan="3">Free</th>
+        <td>Python</td>
+        <td>Network Automation</td>
+        <td>Gen Purpose</td>
+        <tr>
+          <!-- <td>2</td> -->
+          <td>Ansible</td>
+          <td>Network Automation</td>
+          <td>Frame Work</td>
+        </tr>
+        <tr>
+          <!-- <td>3</td> -->
+          <td>Linux</td>
+          <td>Operating System</td>
+          <td>Open Source</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!-- <td></td> -->
+          <th colspan="2">3</th>
+          <th colspan="2">Total</th>
+          <!-- <td></td> -->
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
