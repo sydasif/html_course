@@ -350,3 +350,69 @@ A description list is a list of terms, with a description of each term. The `<dl
       <dd>- Float</dd>
     </dl>
 ```
+
+## HTML Tables
+
+A table in HTML consists of table cells inside rows and columns. The `<table>` tag defines an HTML table. An HTML table consists of one `<table>` element and one or more `<tr>`, `<th>`, and `<td>` elements.
+
+### Table Rows
+
+Each table row starts with a `<tr>` and ends with a closing `</tr>` tag.
+
+### Table Cells
+
+Each table cell is defined by a `<td>` and a closing `</td>` tag.
+
+```html
+    <table>
+      <tr>
+        <td>Name</td>
+        <td>Uasing</td>
+        <td>Remarks</td>
+      </tr>
+        <tr>
+        <td>Python</td>
+        <td>Genral Purpose</td>
+        <td>Use for Automation</td>
+      </tr>
+    </table>
+```
+
+### Table Headers
+
+Sometimes you want your cells to be table header cells. In those cases use the `<th>` tag instead of the `<td>` tag.
+
+```html
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Uasing</th>
+        <th>Remarks</th>
+      </tr>
+        <tr>
+        <td>Python</td>
+        <td>Genral Purpose</td>
+        <td>Use for Automation</td>
+      </tr>
+    </table>
+```
+
+### Table Caption
+
+The `<caption>` tag defines a table caption. The `<caption>` tag must be inserted immediately after the `<table>` tag.
+
+```html
+    <table>
+        <caption>Network Automation</caption>
+      <tr>
+        <th>Name</th>
+        <th>Uasing</th>
+        <th>Remarks</th>
+      </tr>
+        <tr>
+        <td>Python</td>
+        <td>Genral Purpose</td>
+        <td>Use for Automation</td>
+      </tr>
+    </table>
+```
