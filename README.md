@@ -279,3 +279,41 @@ You can set image width and height based on your requirement using `width` and `
 ### Set Image Border
 
 By default, image will have a border around it, you can specify border thickness in terms of pixels using `border` attribute. A thickness of 0 means, no border around the picture.
+
+### Insert Video
+
+To show a video in HTML, use the `<video>` element.
+
+```html
+    <video
+      width="320"
+      height="240"
+      controls
+      autoplay
+      muted
+      loop
+      poster="/images/lab.png"
+    >
+      <source src="/video/intro.mp4" type="video/mp4" />
+      <p>
+        Sorry, your browser does not support MP4. Please download the video form
+        <a href="/video/intro.mp4">here</a>
+      </p>
+    </video>
+```
+
+The `controls` attribute adds video controls, like play, pause, and volume. To start a video automatically, use the `autoplay` attribute. Add `muted` after autoplay to let your video start playing automatically (but muted). The `<source>` tag is used to specify multiple media resources for media elements. The `loop` will play video in auto repeta. The `poster` attribute set display image.
+
+### Insert Audio
+
+To play an audio file in HTML, use the `<audio>` element.
+
+```html
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+```
+
+All attributes works same as for video element.
