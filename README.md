@@ -20,19 +20,16 @@ Following is an example of an basic HTML document.
 ```html
 <!DOCTYPE html>
 <html>
-
    <head>
       <!-- Title of page -->
       <title>Html Tutorial</title>
    </head>
-
    <body>
       <!-- 1st heading -->
       <h1>Basic HTML Document</h1>
       <!-- Paragraph and content goes here -->
       <p>Hello World!</p>
    </body>
-
 </html>
 ```
 
@@ -63,11 +60,9 @@ Any document starts with a heading tag. You can use different sizes for your hea
 ```html
 <!DOCTYPE html>
 <html>
-
    <head>
       <title>Heading Example</title>
    </head>
-
    <body>
       <h1>This is heading 1</h1>
       <h2>This is heading 2</h2>
@@ -76,7 +71,6 @@ Any document starts with a heading tag. You can use different sizes for your hea
       <h5>This is heading 5</h5>
       <h6>This is heading 6</h6>
    </body>
-
 </html>
 ```
 
@@ -91,13 +85,11 @@ The `<p>` tag offers a way to structure your text into different paragraphs. Eac
    <head>
       <title>Paragraph Example</title>
    </head>
-
    <body>
       <p>Here is a first paragraph of text.</p>
       <p>Here is a second paragraph of text.</p>
       <p>Here is a third paragraph of text.</p>
    </body>
-
 </html>
 ```
 
@@ -194,7 +186,7 @@ Following are the possible options:
 3. `_parent` - Opens the linked document in the parent frame.
 4. `_top` - Opens the linked document in the full body of the window.
 
-You can link HTML documents related to the same website, it is not required to give a complete URL for every link.
+You can link related HTML documents on the website with eachother, it is not required to give a complete URL for every link.
 
 ```html
 <!DOCTYPE html>
@@ -256,7 +248,7 @@ HTML `<a>` tag provides you option to specify an email address to send an email.
 
 Images are very important to beautify as well as to depict many complex concepts in simple way on your web page. This tutorial will take you through simple steps to use images in your web pages.
 
-#### Insert Image
+#### Insert Image Link
 
 You can insert any image in your web page by using `<img>` tag. The `<img>` tag is an empty tag, which means that, it can contain only list of attributes and it has no closing tag.
 
@@ -276,11 +268,7 @@ You can set image width and height based on your requirement using `width` and `
 
 - Don't resize picture width and height give actual size of picture for better rendring.
 
-### Set Image Border
-
-By default, image will have a border around it, you can specify border thickness in terms of pixels using `border` attribute. A thickness of 0 means, no border around the picture.
-
-### Insert Video
+### Insert Video Link
 
 To show a video in HTML, use the `<video>` element.
 
@@ -304,7 +292,7 @@ To show a video in HTML, use the `<video>` element.
 
 The `controls` attribute adds video controls, like play, pause, and volume. To start a video automatically, use the `autoplay` attribute. Add `muted` after autoplay to let your video start playing automatically (but muted). The `<source>` tag is used to specify multiple media resources for media elements. The `loop` will play video in auto repeta. The `poster` attribute set display image.
 
-### Insert Audio
+### Insert Audio Link
 
 To play an audio file in HTML, use the `<audio>` element.
 
@@ -317,3 +305,48 @@ Your browser does not support the audio element.
 ```
 
 All attributes works same as for video element.
+
+## HTML Lists
+
+HTML lists allow web developers to group a set of related items in lists.
+
+- An unordered HTML list:
+
+An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
+
+```html
+    <ul>
+      <li>Python</li>
+      <li>Linux</li>
+      <li>VMWare</li>
+      <li>Ansible</li>
+    </ul>
+```
+
+- An ordered HTML list:
+
+An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
+
+```html
+    <ol>
+        <li>Python</li>
+        <li>Linux</li>
+        <li>VMWare</li>
+        <li>Ansible</li>
+      </ol> 
+```
+
+- HTML also supports description lists:
+
+A description list is a list of terms, with a description of each term. The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term.
+
+```html
+    <dl>
+      <dt>Collections</dt>
+      <dd>- Sequences</dd>
+      <dd>- Mapping</dd>
+      <dt>Numbers</dt>
+      <dd>- Numbers</dd>
+      <dd>- Float</dd>
+    </dl>
+```
