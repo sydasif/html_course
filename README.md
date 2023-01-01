@@ -212,7 +212,7 @@ You can link HTML documents related to the same website, it is not required to g
 
 ### Linking to a Page Section
 
-You can create a link to a particular section of a webpage by using `id` attribute. This is a two-step process.
+You can create a link to a particular section (segment link) of a webpage by using `id` attribute. This is a two-step process.
 
 - First create a link to the place where you want to reach with in a webpage and name it using  `id` as follows:
 
@@ -243,3 +243,39 @@ You can create a link to a particular section of a webpage by using `id` attribu
     </body>
 </html>
 ```
+
+### Email Links
+
+HTML `<a>` tag provides you option to specify an email address to send an email. While using `<a>` tag as an email tag, you will use `mailto: email address` along with href attribute.
+
+```html
+<a href="mailto: abc@gmail.com">Send EMail</a>
+```
+
+### Image Links
+
+Images are very important to beautify as well as to depict many complex concepts in simple way on your web page. This tutorial will take you through simple steps to use images in your web pages.
+
+#### Insert Image
+
+You can insert any image in your web page by using `<img>` tag. The `<img>` tag is an empty tag, which means that, it can contain only list of attributes and it has no closing tag.
+
+```html
+<img src="images/lab.png" alt="lab"/>
+```
+
+The `alt` attribute is a mandatory attribute which specifies an alternate text for an image, if the image cannot be displayed.
+
+### Set Image Width/Height
+
+You can set image width and height based on your requirement using `width` and `height` attributes. You can specify width and height of the image in terms of either `pixels` or `percentage` of its actual size.
+
+```html
+<img src="images/lab.png" title="lab" alt="lab" width="60%" height="40%" /> <br />
+```
+
+- Don't resize picture width and height give actual size of picture for better rendring.
+
+### Set Image Border
+
+By default, image will have a border around it, you can specify border thickness in terms of pixels using `border` attribute. A thickness of 0 means, no border around the picture.
